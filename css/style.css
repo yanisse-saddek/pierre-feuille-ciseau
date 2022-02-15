@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+*{
+    margin:0;
+    font-family: 'Roboto', sans-serif;}
+.app{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6bbeff;
+    color:white
+}
+.app .title{
+    font-size: 3rem;
+    margin-top:10px
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    height:170px;
+    padding-right:2rem;
+    padding-left:2rem;
+    align-items: center;
+    border-radius: 40px;
+    margin-top:40px;
+    background-color: #2596ed;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:400px
+}
+.card .playername{
+    font-size: 2.5rem;
+}
+.card .score{
+    font-size: 2rem;
+    margin:10px
+}
+.cards .vs{
+    font-size: 2rem;
+    text-decoration:underline;
+    font-weight: bold;
+    color:black
+}
+.mt{
+    margin-top:10px
+}
+.win-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.win-text p{
+    background-color: orange;
+    width:100%;
+    padding:0.2rem;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width:100%;
+    margin-top:30px
+}
+.img svg{
+    height:170px
+
+
+}
